@@ -4,6 +4,12 @@ artists.forEach(artist => {
   console.log(artist + ' is one of my favorite artists.');
 });
 
+
+
+
+
+
+
 const numbers = [1, 2, 3, 4, 5];
 
 const squareNumbers = numbers.map(number => {
@@ -11,6 +17,16 @@ const squareNumbers = numbers.map(number => {
 });
 
 console.log(squareNumbers);
+function squareNumberss(number){
+  return console.log(number*number);
+}
+
+numbers.map(squareNumberss)
+
+
+
+
+
 
 const things = ['desk', 'chair', 5, 'backpack', 3.14, 100];
 
