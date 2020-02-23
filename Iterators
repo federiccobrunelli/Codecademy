@@ -61,3 +61,7 @@ const summedNums = numbers.reduce((accumulator, currentValue) => {
 }, 100)  // <- Second argument for .reduce()
 
 console.log(summedNums); // Output: 117
+
+
+//There are many additional built-in array methods, a complete list of which is on the MDN’s Array iteration methods page. 
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods
