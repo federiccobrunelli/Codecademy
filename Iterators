@@ -51,3 +51,13 @@ const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door'];
 const shortWords = words.filter(word => {
   return word.length < 6;
 });
+
+_______________________________________________
+
+const numbers = [1, 2, 4, 10];
+
+const summedNums = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue
+}, 100)  // <- Second argument for .reduce()
+
+console.log(summedNums); // Output: 117
