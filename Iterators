@@ -90,3 +90,8 @@ const smallerNums = nums.map(num => num - 5);
 nums.some(num => num < 0);
 // OR nums.some(num => num < 0);
 
+
+
+//In the code editor, there is a string called story. We want to gather some information about the individual words and sentences in the string. Let’s split the string into individual words and save them in a new array called storyWords.
+
+string.split(' ');
