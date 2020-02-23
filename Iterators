@@ -8,8 +8,6 @@ artists.forEach(artist => {
 
 
 
-
-
 const numbers = [1, 2, 3, 4, 5];
 
 const squareNumbers = numbers.map(number => {
@@ -17,6 +15,10 @@ const squareNumbers = numbers.map(number => {
 });
 
 console.log(squareNumbers);
+
+
+
+
 function squareNumberss(number){
   return console.log(number*number);
 }
