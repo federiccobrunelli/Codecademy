@@ -4,8 +4,7 @@ artists.forEach(artist => {
   console.log(artist + ' is one of my favorite artists.');
 });
 
-
-
+_______________________________________________
 
 
 const numbers = [1, 2, 3, 4, 5];
@@ -16,7 +15,7 @@ const squareNumbers = numbers.map(number => {
 
 console.log(squareNumbers);
 
-
+_______________________________________________
 
 
 function squareNumberss(number){
@@ -25,10 +24,7 @@ function squareNumberss(number){
 
 numbers.map(squareNumberss)
 
-
-
-
-
+_______________________________________________
 
 const things = ['desk', 'chair', 5, 'backpack', 3.14, 100];
 
@@ -37,4 +33,16 @@ const onlyNumbers = things.filter(thing => {
 });
 
 console.log(onlyNumbers);
+
+_______________________________________________
+
+// Use .map() to create a new array that contains the first character of each string in the animals array. Save the new array to a const variable named secretMessage.
+
+const secretMessage = animals.map(string => { 
+  return string[0]
+});
+
+console.log(secretMessage);
+
+_______________________________________________
 
