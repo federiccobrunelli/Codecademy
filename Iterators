@@ -95,3 +95,5 @@ nums.some(num => num < 0);
 //In the code editor, there is a string called story. We want to gather some information about the individual words and sentences in the string. Let’s split the string into individual words and save them in a new array called storyWords.
 
 string.split(' ');
+
+//24.02 - When the data stored on an object is a function we call that a method. A property is what an object has, while a method is what an object does.
