@@ -96,10 +96,51 @@ nums.some(num => num < 0);
 
 string.split(' ');
 
+_______________________________________________
+
 //24.02 - When the data stored on an object is a function we call that a method. A property is what an object has, while a method is what an object does.
+
+_______________________________________________
 
 var myName = "Fed";
 var myCity = "Bln";
 console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
 
 console.log("My name is " + myName + ". " + "My favorite city is " + myCity + ".");
+_______________________________________________
+
+let spaceship = {
+    crew: {
+    captain: { 
+        name: 'Lily', 
+        degree: 'Computer Engineering', 
+        cheerTeam() { console.log('You got this!') } 
+        },
+    'chief officer': { 
+        name: 'Dan', 
+        degree: 'Aerospace Engineering', 
+        agree() { console.log('I agree, captain!') } 
+        },
+    medic: { 
+        name: 'Clementine', 
+        degree: 'Physics', 
+        announce() { console.log(`Jets on!`) } },
+    translator: {
+        name: 'Shauna', 
+        degree: 'Conservation Science', 
+        powerFuel() { console.log('The tank is full!') } 
+        }
+    }
+}; 
+
+// Write your code below
+for (let crewMember in spaceship.crew){
+  console.log(crewMember + ": " + spaceship.crew[crewMember].name)
+}
+
+for (let crewMember in spaceship.crew){
+  console.log(`${spaceship.crew[crewMember].name}: ${spaceship.crew[crewMember].degree}`)
+}
+
+_______________________________________________
+
