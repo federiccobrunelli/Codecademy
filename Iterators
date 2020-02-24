@@ -97,3 +97,9 @@ nums.some(num => num < 0);
 string.split(' ');
 
 //24.02 - When the data stored on an object is a function we call that a method. A property is what an object has, while a method is what an object does.
+
+var myName = "Fed";
+var myCity = "Bln";
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
+
+console.log("My name is " + myName + ". " + "My favorite city is " + myCity + ".");
