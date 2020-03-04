@@ -1,0 +1,18 @@
+
+// Consider testing your function:
+let pets = {
+  Scooter: {species: "cat"},
+  Bucket: {species: "fish"},
+  Blammo: {species: "dog"}
+};
+
+// Define your function here:
+function loopThroughAnimals(pet) {
+  for (let [key, value] of Object.entries(pet)) {
+  return console.log(`${key}: ${value[1]}`);
+  
+  
+}
+
+loopThroughAnimals(pets);
+
