@@ -16,3 +16,24 @@ function loopThroughAnimals(pet) {
 
 loopThroughAnimals(pets);
 
+//SOLUTION !!!!
+
+// Consider testing your function:
+let pets = {
+  Scooter: {species: "cat"},
+  Bucket: {species: "fish"},
+  Blammo: {species: "dog"}
+};
+
+
+// Define your function here:
+
+const loopThroughAnimals = pet => {
+  
+for (let [key, value] of Object.entries(pet)) {
+  console.log(`${key}: ${value.species}`);
+
+}
+}
+
+loopThroughAnimals(pets);
