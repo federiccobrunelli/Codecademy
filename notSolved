@@ -37,3 +37,6 @@ for (let [key, value] of Object.entries(pet)) {
 }
 
 loopThroughAnimals(pets);
+
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
