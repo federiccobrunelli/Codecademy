@@ -194,3 +194,13 @@ _______________________________________________
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods_of_the_Object_constructor
 
 _______________________________________________
+
+//ShortHand object
+const spectacle = {
+  glass: 'Zeiss',
+  power: -0.5
+}
+const {glass, power} = spectacle;
+console.log(glass);
+
+
