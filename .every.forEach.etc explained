@@ -1,0 +1,9 @@
+.every() :
+- You have an array. 
+- You want to test each element in the array. 
+- You want to know whether all of the elements pass that test. true / false .
+
+.forEach() :
+- Is great you need to execute a function for each individual element in an array.
+- istead of a for loop for example.
+
