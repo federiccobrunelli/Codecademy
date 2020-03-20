@@ -1,3 +1,5 @@
+const apiKey = '64d4d28ccce14a79853156cdecfdbf0d';
+
 //AJAX GET request
 
 const xhr = new XMLHttpRequest();
