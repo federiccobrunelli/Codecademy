@@ -1,3 +1,6 @@
+// fetch() is a web API that can be used to create requests. fetch() will return promises.
+// The .json() method converts a returned promise to a JSON object.
+
 const apiKey = '64d4d28ccce14a79853156cdecfdbf0d';
 
 //From CodeCademy exercises using datamuse word suggestion API
