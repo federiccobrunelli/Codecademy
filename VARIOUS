@@ -1,0 +1,17 @@
+//masking 
+unction maskify(cc) {
+  return cc.slice(0, -4).replace(/./g, '#') + cc.slice(-4);
+}
+
+console.log(maskify('46382924794'))
+
+function maskifyrep(cc) {
+  return cc.replace(/.(?=....)/g, '*');
+}
+
+console.log(maskifyrep('46382924794'))
+
+____________________________________________
+
+
+
